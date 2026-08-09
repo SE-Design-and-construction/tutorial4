@@ -1,6 +1,6 @@
 ## Tax calculator example  
 
-A simple tax calculator using the updated [IRD brackets](https://www.ird.govt.nz/pages/campaigns/personal-income-tax-threshold-changes)
+A simple tax calculator using the updated [IRD brackets](https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals)
 
 
 
@@ -8,8 +8,3 @@ A simple tax calculator using the updated [IRD brackets](https://www.ird.govt.nz
 To run, `mvn clean install`
 
 To run tests only,  `mvn test`
-
-
-To run Docker: 
-1. first build the docker image `docker build -t [image name] .`
-2. then run the image in a container ` docker run -p [port number] -d [image name]`
